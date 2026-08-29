@@ -1,0 +1,33 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+env/
+venv/
+ENV/
+.env
+
+# Model weights
+weights/*.pth
+weights/*.pt
+weights/*.onnx
+weights/*.bin
+
+# Data
+data/0_raw/
+!data/0_raw/*
+data/1_segmentation/
+!data/1_segmentation/*
+data/2_orientation/
+!data/2_orientation/*
+data/3_detection/
+!data/3_detection/* 
+data/4_recognition/
+!data/4_recognition/*
+data/5_kie_layoutlmv3/
+!data/5_kie_layoutlmv3/*
+data/6_classification/
+!data/6_classification/*
+.md
